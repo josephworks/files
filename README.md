@@ -1,9 +1,4 @@
-# files
-
-If you are wondering why I use this it is because this allows me to git clone this repo to receive the files on my terminal.
-
+# Files (For Personal Purposes)
 A file store for my projects.
 
-> Note: The Issues section will completely ignored.
-
-# This Repo is used for personal purposes
+> Note: If you would like to add some files for your projects, just do a pull request with your files.
