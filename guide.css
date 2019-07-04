@@ -1,0 +1,44 @@
+/* universal selector (applies to everything) */
+* {
+  /* set stuff */
+}
+
+/* targeting a single element type */
+p {
+  /* set stuff */
+}
+
+/* targeting two different elements */
+p, input {
+  /* set stuff */
+}
+
+/* targeting a class */
+.foo {
+  /* set stuff */
+}
+
+/* targeting an id */
+/* avoid these, but know how to recognize
+  them in the wild. It's usually better to
+  use a class selector instead.
+*/
+#bar {
+  /* set stuff */
+}
+
+/* targeting an element with a class */
+/* try to avoid this, in favor of simple class declaration */
+p.foo {
+  /* set stuff */
+}
+
+/* targeting descendants */
+ul.foo li {
+  /* any `li` within `ul.foo` will get targeted */
+}
+
+/* targeting direct children */
+ul > li  {
+  /*  only `li`s that are direct children of ul targeted */
+}
